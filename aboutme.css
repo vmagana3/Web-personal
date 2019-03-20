@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body
+{
+	margin: 0px;
+	background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+/*-----------Header--------*/
+header
+{
+	width: 100%;
+	height: 80px;
+}
+header>p
+{
+	float: left;
+	margin-left: 8%;
+	font-size: 20px;
+}
+header>strong
+{
+	float: left;
+	margin-left:;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+header>img
+{
+	width: 4%;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+header>img:hover
+{
+	transform: scale(1.5);
+	transition-duration: 1s;
+}
+
+/*Contenedor principal*/
+.info-general
+{
+	width: 60%;
+	height: 400px;
+	background-color:rgba(0,153,255,0.05);
+	margin-left: 3%;
+	display: inline-block;
+}
+div>div>h3
+{
+	text-align: center;
+}
+/*Options*/
+.contacto
+{
+	width: 33%;
+	height: 400px;
+	float: right;
+	background-color:rgba(0,153,255,0.05);
+	margin-right:3%;
+}
+button
+{
+	margin-left: 30%;
+	width: 130px;
+	height: 60px;
+	background-color:rgba(0,153,255,0.2);
+	color: #01A9DB;
+	border:none;
+	font-size: 120%;
+	border-radius:5px;
+	margin-top: 25px;
+	margin-bottom: 52px;
+}
+div>div>section>img
+{
+	width: 10%;
+	float: right;
+	margin-top: 4%;
+	margin-right: 10%;
+}
+.img-contact
+{
+	width: 15%;
+	float: right;
+	margin-top: 25%;
+	margin-right: 10%;
+}
+
+div>div>h4
+{
+	text-align: center;
+}
+div>div>section
+{
+	width: 90%;
+	margin-left: 30px;
+	border-bottom: 1px solid black;
+	border-color: #01A9DB;
+}
+/*div>div>section>p:hover
+{
+	transform: scale(1.1);
+}*/
+.info-detalles
+{
+	width: 94%;
+	height: 900px;
+	background-color:rgba(0,153,255,0.05);
+	margin-left: 3%;
+	margin-top: 1%;
+}
+.info-left
+{
+	width: 60%;
+	height: 500px;
+	display: inline-block;
+	border-bottom: none;
+	border: 1px solid black;
+	float: left;
+}
+
+.info-right
+{
+	width: 34%;
+	height: 500px;
+	float: right;
+	border-bottom: none;
+	text-align: center;
+	padding-right: 12px;
+	border: 1px solid black;
+}
+
+.img-liv
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 20px;
+}
+.img-liv:hover
+{
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+div>section>h3
+{
+	text-align: center;
+}
+div>section>h4
+{
+	text-align: center;
+	color: #01A9DB;
+}
+
+.info-left1
+{
+	width: 60%;
+	height: 200px;
+	display: inline-block;
+	border: 1px solid black;
+}
+div>section>section>h4
+{
+	text-align: center;
+	color: #01A9DB;
+}
+
+div>section>p
+{
+	text-align: justify;
+}
+
+big
+{
+	color: #01A9DB; 
+}
+#sub
+{
+	text-align: center;
+}
+ul
+{
+	text-align: justify;
+}
+
