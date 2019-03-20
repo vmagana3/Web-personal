@@ -25,14 +25,14 @@ header>strong
 	font-size: 20px;
 }
 
-header>img
+header>a>img
 {
 	width: 4%;
 	border-radius: 50%;
 	margin-left: 10px;
 	margin-top: 3px;
 }
-header>img:hover
+header>a>img:hover
 {
 	transform: scale(1.5);
 	transition-duration: 1s;
@@ -106,7 +106,7 @@ div>div>section
 .info-detalles
 {
 	width: 94%;
-	height: 900px;
+	height: 1020px;
 	background-color:rgba(0,153,255,0.05);
 	margin-left: 3%;
 	margin-top: 1%;
@@ -114,22 +114,20 @@ div>div>section
 .info-left
 {
 	width: 60%;
-	height: 500px;
+	height: 530px;
 	display: inline-block;
-	border-bottom: none;
-	border: 1px solid black;
 	float: left;
 }
 
 .info-right
 {
 	width: 34%;
-	height: 500px;
+	height: 530px;
 	float: right;
-	border-bottom: none;
+	border-bottom: 1px solid black;
+	border-color: #01A9DB;
 	text-align: center;
 	padding-right: 12px;
-	border: 1px solid black;
 }
 
 .img-liv
@@ -139,6 +137,7 @@ div>div>section
 	border-radius: 50%;
 	float: left;
 	margin-left: 20px;
+	margin-bottom: 20px;
 }
 .img-liv:hover
 {
@@ -158,10 +157,10 @@ div>section>h4
 
 .info-left1
 {
-	width: 60%;
-	height: 200px;
+	width: 97%;
+	height: 450px;
 	display: inline-block;
-	border: 1px solid black;
+	margin-top: 20px;
 }
 div>section>section>h4
 {
@@ -186,4 +185,33 @@ ul
 {
 	text-align: justify;
 }
+
+.img-tech1
+{
+	width: 10%;
+	border-radius: 50%;
+	margin-right: 35%;
+	margin-top: 0px;
+	margin-bottom: 20px;
+
+}
+.img-tech
+{
+	width: 10%;
+	border-radius: 50%;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-left: 400px;
+}
+.img-tech1:hover
+{
+	transform:scale(1.1);
+	transition: 2s;
+}
+.img-tech:hover
+{
+	transform:scale(1.1);
+	transition: 2s;
+}
+
 
