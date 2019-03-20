@@ -12,22 +12,30 @@
     <p>Web curriculum/</p><strong>Gerzain</strong>
     <img src="img/perfil.jpg">
       <nav>
-        <button type="input" value="Home"onclick="location.href='index.html'">Home</button>
-        <button type="input" value="aboutme" onclick="location.href='aboutme.html'">About me</button>
-        <button type="input" value="contact" onclick="location.href='contact.html'">Contact</button>
+        <button type="button" value="Home"onclick="location.href='index.html'">Home</button>
+        <button type="button" value="aboutme" onclick="location.href='aboutme.html'">About me</button>
+        <button type="button" value="contact" onclick="location.href='contact.html'">Contact</button>
       </nav>
   </header>
 
   <div class="principal">
-    <h1>Dejanos tu comentario o sugerencia!!</h1>
+    <h2>Formulario de Contacto!!</h2>
+
     <section class="formulario">
-      <input type="input" name="" placeholder="Nombre Completo">
-      <input type="input" name="" placeholder="Correo">
-      <input type="input" name="" placeholder="Asunto">
-      <input type="input" name="" placeholder="Institucion/Empresa">
-      <textarea>
-        
+
+      <label>Nombre:</label>
+      <input class="input" type="input" name="" placeholder="Nombre Completo">
+      <label> Dirección de coreeo:</label>
+      <input class="input" type="input" name="" placeholder="Correo">
+      <label>Escribe tu asunto:</label>
+      <input class="input" type="input" name="" placeholder="Asunto">
+      <label>De donde nos escribe:</label>
+      <input class="input" type="input" name="" placeholder="Institucion/Empresa">
+      <label>Comentario:</label>
+      <textarea class="input" placeholder="Escribe aqui tu comentario!!">
       </textarea>
+
+      <button class="enviar" type="button" value="contact" onclick="location.href=''">Enviar</button>
 
       
     </section>
